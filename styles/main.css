@@ -5,6 +5,7 @@ html, body {
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  outline: 0 none;
 }
 
 .bg_heart {
@@ -50,9 +51,25 @@ html, body {
   }
 }
 
+
+.cat {
+  /* position: fixed;
+  padding: 200px;
+  bottom: 0;
+  left: 840px;
+  top: 40%;
+  */
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20%;
+  padding: px;
+}
+
 .message {
   position: fixed;
-  top: 50%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #53000f;
@@ -66,6 +83,7 @@ html, body {
   border-radius: 15px;
   pointer-events: none;
 }
+
 
 .next-button {
   display: none;
@@ -83,26 +101,22 @@ html, body {
   z-index: 1000;
   transition: all 0.3s ease;
   box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-  outline: 0 none;
 }
 
 .next-button:hover {
   background-color: #ff3357;
   transform: translateX(-50%) scale(1.05);
-  outline: 0 none;
 }
 
 @media (max-width: 600px) {
   .message {
     font-size: 1.5em; 
     padding: 10px; 
-    outline: 0 none;
   }
 
   .next-button {
     padding: 10px 20px; 
     font-size: 1em; 
-    outline: 0 none;
   }
 }
 
@@ -122,12 +136,10 @@ html, body {
   .message {
     font-size: 3em; 
     padding: 20px; 
-    outline: 0 none;
   }
 
   .next-button {
     padding: 15px 30px; 
     font-size: 1.2em; 
-    outline: 0 none;
   }
 }
