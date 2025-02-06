@@ -122,10 +122,12 @@ html, body {
   .message {
     font-size: 3em; 
     padding: 20px; 
+    outline: 0 none;
   }
 
   .next-button {
     padding: 15px 30px; 
     font-size: 1.2em; 
+    outline: 0 none;
   }
 }
