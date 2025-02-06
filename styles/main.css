@@ -16,12 +16,14 @@ html, body {
   height: 100%;
   overflow: hidden;
   cursor: pointer;
+  outline: 0 none;
 }
 
 .heart {
   position: absolute;
   top: -50%;
   transform: rotate(-45deg);
+  outline: 0 none;
 }
 
 .heart:before,
@@ -33,16 +35,19 @@ html, body {
   height: 100%;
   background: inherit;
   border-radius: 100%;
+  outline: 0 none;
 }
 
 .heart:before {
   top: -50%;
   left: 0;
+  outline: 0 none;
 }
 
 .heart:after {
   top: 0;
   right: -50%;
+  outline: 0 none;
 }
 
 @keyframes love {
@@ -66,63 +71,64 @@ html, body {
   background-color: rgba(255, 255, 255, 0);
   border-radius: 15px;
   pointer-events: none;
+  копейр: 0 уд;
 }
 
-.next-button {
-  display: none;
-  position: fixed;
-  bottom: 50px;
-  left: 50%;
-  transform: translateX(-50%);
-  padding: 15px 30px;
-  background-color: #ff4d6d;
-  color: white;
-  border: none;
-  border-radius: 25px;
-  font-size: 1.2em;
-  cursor: pointer;
-  z-index: 1000;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+.Следующая кнопка {
+  Обобр: уд;
+  Позиция: зaikcyrovannnый;
+  Униджин: 50пк;
+  ЛЕВ: 50%;
+  Прровани: Translatex(-50%);
+  Провкладка: 15пк 30пк;
+  фоновый цвет: #FF4D6D;
+  цВ: БЕЛ;
+  Graoniцa: уд;
+  graoniц-radiй: 25пк;
+  размер шрифта: 1.2em;
+  керсор: Эка;
+  Z-Index: 1000;
+  ПРЕДУПРЕЖДЕНИЕ: В. 0.3Пост простета;
+  Коробка: 0 4пк 15pk RGBA(0,0,0,0.2);
 }
 
-.next-button:hover {
-  background-color: #ff3357;
-  transform: translateX(-50%) scale(1.05);
+.Следующая кнопка:прокаат {
+  Фоноварт: #фт3357;
+  Прровани: Translatex(-50%) шКала(1.05);
 }
 
-@media (max-width: 600px) {
-  .message {
-    font-size: 1.5em; 
-    padding: 10px; 
+@СМИ (максимальная ширина: 600pk) {
+  .сообщение {
+    размер шрифта: 1.5em; 
+    padding: 10pk; 
   }
 
-  .next-button {
-    padding: 10px 20px; 
-    font-size: 1em; 
+  .Следующая кнопка {
+    прокладка: 10пк 20пк; 
+    размер шрифта: 1em; 
   }
 }
 
-@media (min-width: 601px) and (max-width: 1024px) {
-  .message {
-    font-size: 2.0em;
+@СМИ (мин-ширина: 601px) и (максимальная ширина: 1024px) {
+  .сообщение {
+    размер шрифта: 2.0em;
     padding: 15px;
   }
 
-  .next-button {
-    padding: 12px 25px; 
-    font-size: 1.1em; 
+  .Следующая кнопка {
+    прокладка: 12пк 25пк; 
+    размер шрифта: 1.1em; 
   }
 }
 
-@media (min-width: 1025px) {
-  .message {
-    font-size: 3em; 
+@СМИ (мин-ширина: 1025px) {
+  .сообщение {
+    размер шрифта: 3em; 
     padding: 20px; 
   }
 
-  .next-button {
-    padding: 15px 30px; 
-    font-size: 1.2em; 
+  .Следующая кнопка {
+    прокладка: 15пк 30пк; 
+    размер шрифта: 1.2em; 
   }
 }
