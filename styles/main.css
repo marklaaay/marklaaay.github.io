@@ -51,25 +51,170 @@ html, body {
   }
 }
 
+.cats{
 
-.cat {
-  /* position: fixed;
-  padding: 200px;
-  bottom: 0;
-  left: 840px;
-  top: 40%;
-  */
+.cat1 {
+  content: srl('cats/в трусах1.jpg');
+  display: none;
   position: fixed;
-  top: 60%;
+  top: 55%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) scale(3);
   width: 20%;
   padding: px;
 }
 
+.cat2 {
+  content: srl("cats/вапщета2.jpg");
+  display: none;
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(3);
+  width: 20%;
+  padding: px;
+}
+
+.cat3 {
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(3);
+  width: 20%;
+  padding: px;
+}
+
+.cat4 {
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(3);
+  width: 20%;
+  padding: px;
+}
+
+.cat5 {
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(3);
+  width: 20%;
+  padding: px;
+}
+
+.cat6 {
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(3);
+  width: 20%;
+  padding: px;
+}
+
+.cat7 {
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(3);
+  width: 20%;
+  padding: px;
+}
+
+.cat8 {
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(3);
+  width: 20%;
+  padding: px;
+}
+
+.cat9 {
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(3);
+  width: 20%;
+  padding: px;
+}
+
+.cat10 {
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(3);
+  width: 20%;
+  padding: px;
+}
+
+.cat11 {
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(3);
+  width: 20%;
+  padding: px;
+}
+
+.cat12 {
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(3);
+  width: 20%;
+  padding: px;
+}
+
+.cat13 {
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(3);
+  width: 20%;
+  padding: px;
+}
+
+.cat14 {
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(3);
+  width: 20%;
+  padding: px;
+}
+
+.cat15 {
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(3);
+  width: 20%;
+  padding: px;
+}
+
+.cat16 {
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(3);
+  width: 20%;
+  padding: px;
+}
+}
+
+/* .cat {
+  display: none;
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(3);
+  width: 20%;
+  padding: px;
+} */
+
 .message {
   position: fixed;
-  top: 25%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #53000f;
@@ -93,7 +238,7 @@ html, body {
   transform: translateX(-50%);
   padding: 15px 30px;
   background-color: #ff4d6d;
-  color: white;
+  color: rgb(255, 255, 255);
   border: none;
   border-radius: 25px;
   font-size: 1.2em;

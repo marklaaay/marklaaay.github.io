@@ -7,8 +7,12 @@ document.addEventListener('keydown', function(e) {
         e.preventDefault();
     }
 });
+const image = [
+     src="cats/в трусах1.jpg" ,
+     src="cats/вапщета2.jpg"
+]
 
-const messages = [
+const messages = [  
 "Эй, ты ❤️",  
 "Твой парень просил передать сообщение",  
 "нажми и появится сообщение",  
@@ -35,16 +39,16 @@ const messages = [
 "Попробуй нажать кнопку внизу 💝"
 ];
 
-let currentPage = 0;
-let isLastPage = false;
+let currentPage = 0; 
 
 function showMessage() {
     $('.message').text(messages[currentPage]);
+    $('.cat').images(image[currentPage]);
     
     isLastPage = currentPage === messages.length - 1;
-    
-    if (isLastPage) {
-        $('.next-button').show();
+
+    if (currentPage in [0]) {
+        $('.cat').show();
         $('.bg_heart').css('cursor', 'default');
     } else {
         $('.next-button').hide();
